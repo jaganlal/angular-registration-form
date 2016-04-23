@@ -1,0 +1,127 @@
+/*.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}*/
+
+.center {
+	bottom: 0; left: 0; top: 0; right: 0;
+  margin: auto;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.inputlabel-container {
+	position: relative;
+	display: table;
+}
+
+.input-element {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 5px;
+	font-size: 14px;
+}
+
+.label-watermark {
+  color: #aaa;
+	font-size: 0.65em;
+	font-weight: normal;
+	visibility: visible;
+	position: absolute;
+	z-index: 2;
+	top: 1px;
+	left: 5px;
+}
+
+#jupiter {
+    position:relative;
+    z-index:1;
+    width:340px;
+    height:440px;
+    padding:20px 280px 20px 20px;
+    margin:0 auto;
+    color:#fcfcfc;
+    background:#000;
+}
+
+#jupiter h2 {margin:0 0 1em; text-align:left; font-size:22px;}
+
+#jupiter:before {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:url(jupiter.jpg) no-repeat;
+    opacity:0.5;
+}
+
+#jupiter:hover:before {
+    opacity:1;
+}
+
+.divWholePage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		}
+	.divSection {
+		display: table;
+		width: 100%;
+		min-height: 50%;
+		height: 50%;
+		z-index: 0;
+		}
+	.divRandomText {
+		font-family: "Average";
+		font-size: 24px;
+		line-height: 130%;
+		padding: 15%;
+		display: table-cell;
+		vertical-align: middle;
+		}
+	.divBackgroundImage {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		right: 0;
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		z-index: -1;
+		opacity: .8;
+		}
+	.imgBackground {
+		float: left;
+		}
